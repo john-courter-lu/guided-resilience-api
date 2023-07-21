@@ -1,0 +1,392 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "pam@example.com",
+            "isStaff": true
+        },
+        {
+            "id": 2,
+            "email": "john.doe@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "email": "jane.smith@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "email": "alex.johnson@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 5,
+            "email": "sarah.jones@example.com",
+            "isStaff": false
+        },
+        {
+            "id": 6,
+            "email": "michael.brown@example.com",
+            "isStaff": false
+        }
+    ],
+    "patients": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "dateOfBirth": "1985-03-15",
+            "genderId": 1,
+            "address": "123 Main St",
+            "city": "New York City",
+            "state": "New York",
+            "userId": 2
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "dateOfBirth": "1990-11-02",
+            "genderId": 2,
+            "address": "456 Oak Ave",
+            "city": "Los Angeles",
+            "state": "California",
+            "userId": 3
+        },
+        {
+            "id": 3,
+            "name": "Alex Johnson",
+            "dateOfBirth": "1978-07-21",
+            "genderId": 1,
+            "address": "789 Pine Rd",
+            "city": "Chicago",
+            "state": "Illinois",
+            "userId": 4
+        },
+        {
+            "id": 4,
+            "name": "Sarah Jones",
+            "dateOfBirth": "1989-09-09",
+            "genderId": 2,
+            "address": "1010 Elm St",
+            "city": "Houston",
+            "state": "Texas",
+            "userId": 5
+        },
+        {
+            "id": 5,
+            "name": "Michael Brown",
+            "dateOfBirth": "1995-12-30",
+            "genderId": 1,
+            "address": "222 Maple Ave",
+            "city": "Phoenix",
+            "state": "Arizona",
+            "userId": 6
+        }
+    ],
+    "therapists": [
+        {
+            "id": 1,
+            "name": "Pam Davis",
+            "userId": 1
+        }
+    ],
+    "genders": [
+        {
+            "id": 1,
+            "option": "Male"
+        },
+        {
+            "id": 2,
+            "option": "Female"
+        },
+        {
+            "id": 3,
+            "option": "Non-Binary"
+        }
+    ],
+    "approaches": [
+        {
+            "id": 1,
+            "name": "Cognitive-Behavioral Therapy (CBT)"
+        },
+        {
+            "id": 2,
+            "name": "Acceptance and Commitment Therapy (ACT)"
+        },
+        {
+            "id": 3,
+            "name": "Dialectical Behavior Therapy (DBT)"
+        },
+        {
+            "id": 4,
+            "name": "Mindfulness-Based Stress Reduction (MBSR)"
+        },
+        {
+            "id": 5,
+            "name": "Psychodynamic Therapy"
+        },
+        {
+            "id": 6,
+            "name": "Solution-Focused Brief Therapy (SFBT)"
+        },
+        {
+            "id": 7,
+            "name": "Eye Movement Desensitization and Reprocessing (EMDR)"
+        },
+        {
+            "id": 8,
+            "name": "Gestalt Therapy"
+        },
+        {
+            "id": 9,
+            "name": "Narrative Therapy"
+        },
+        {
+            "id": 10,
+            "name": "Person-Centered Therapy (Client-Centered Therapy)"
+        }
+    ],
+    "conditions": [
+        {
+            "id": 1,
+            "name": "Major Depressive Disorder (Depression)"
+        },
+        {
+            "id": 2,
+            "name": "Generalized Anxiety Disorder (GAD)"
+        },
+        {
+            "id": 3,
+            "name": "Post-Traumatic Stress Disorder (PTSD)"
+        },
+        {
+            "id": 4,
+            "name": "Obsessive-Compulsive Disorder (OCD)"
+        },
+        {
+            "id": 5,
+            "name": "Bipolar Disorder"
+        },
+        {
+            "id": 6,
+            "name": "Social Anxiety Disorder (Social Phobia)"
+        },
+        {
+            "id": 7,
+            "name": "Panic Disorder"
+        },
+        {
+            "id": 8,
+            "name": "Schizophrenia"
+        },
+        {
+            "id": 9,
+            "name": "Borderline Personality Disorder (BPD)"
+        },
+        {
+            "id": 10,
+            "name": "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+        },
+        {
+            "id": 11,
+            "name": "Specific Phobias"
+        },
+        {
+            "id": 12,
+            "name": "Anorexia Nervosa"
+        },
+        {
+            "id": 13,
+            "name": "Bulimia Nervosa"
+        },
+        {
+            "id": 14,
+            "name": "Substance Use Disorder (Drug Addiction or Alcoholism)"
+        },
+        {
+            "id": 15,
+            "name": "Autism Spectrum Disorder (ASD)"
+        }
+    ],
+    "treatments": [
+        {
+            "id": 1,
+            "patientId": 1,
+            "conditionId": 1,
+            "approachId": 1,
+            "startDate": "2022-01-01",
+            "endDate": "2023-07-15",
+            "isCompleted": true
+        },
+        {
+            "id": 2,
+            "patientId": 2,
+            "conditionId": 2,
+            "approachId": 2,
+            "startDate": "2022-01-10",
+            "endDate": "2023-05-20",
+            "isCompleted": true
+        },
+        {
+            "id": 3,
+            "patientId": 3,
+            "conditionId": 3,
+            "approachId": 3,
+            "startDate": "2022-01-20",
+            "endDate": "2023-06-10",
+            "isCompleted": true
+        },
+        {
+            "id": 4,
+            "patientId": 4,
+            "conditionId": 4,
+            "approachId": 4,
+            "startDate": "2023-04-05",
+            "endDate": "2099-12-31",
+            "isCompleted": false
+        },
+        {
+            "id": 5,
+            "patientId": 5,
+            "conditionId": 5,
+            "approachId": 5,
+            "startDate": "2023-05-12",
+            "endDate": "2099-12-31",
+            "isCompleted": false
+        },
+        {
+            "id": 6,
+            "patientId": 1,
+            "conditionId": 6,
+            "approachId": 6,
+            "startDate": "2023-07-25",
+            "endDate": "2099-12-31",
+            "isCompleted": false
+        },
+        {
+            "id": 7,
+            "patientId": 2,
+            "conditionId": 7,
+            "approachId": 7,
+            "startDate": "2023-05-15",
+            "endDate": "2099-12-31",
+            "isCompleted": false
+        },
+        {
+            "id": 8,
+            "patientId": 3,
+            "conditionId": 8,
+            "approachId": 8,
+            "startDate": "2023-06-20",
+            "endDate": "2099-12-31",
+            "isCompleted": false
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "senderId": 1,
+            "recipientId": 2,
+            "content": "Hi John, how are you feeling today?",
+            "time": "2023-07-10T09:30:00"
+        },
+        {
+            "id": 2,
+            "senderId": 2,
+            "recipientId": 1,
+            "content": "Hi Pam, I'm doing okay. Feeling a bit anxious though.",
+            "time": "2023-07-10T10:15:00"
+        },
+        {
+            "id": 3,
+            "senderId": 1,
+            "recipientId": 2,
+            "content": "I'm sorry to hear that, John. Let's talk about it during our next session.",
+            "time": "2023-07-10T11:00:00"
+        },
+        {
+            "id": 4,
+            "senderId": 3,
+            "recipientId": 1,
+            "content": "Hello Pam, just a quick question about my upcoming appointment.",
+            "time": "2023-07-11T14:20:00"
+        },
+        {
+            "id": 5,
+            "senderId": 1,
+            "recipientId": 3,
+            "content": "Hi Alex, feel free to ask anything. What would you like to know?",
+            "time": "2023-07-11T15:00:00"
+        },
+        {
+            "id": 6,
+            "senderId": 4,
+            "recipientId": 1,
+            "content": "Hi Pam, I wanted to share my progress since our last session.",
+            "time": "2023-07-12T16:45:00"
+        },
+        {
+            "id": 7,
+            "senderId": 1,
+            "recipientId": 4,
+            "content": "That's great to hear! Let's schedule a session to discuss it further.",
+            "time": "2023-07-12T17:30:00"
+        },
+        {
+            "id": 8,
+            "senderId": 5,
+            "recipientId": 1,
+            "content": "Hey Pam, I have a question about the techniques we discussed.",
+            "time": "2023-07-13T09:10:00"
+        },
+        {
+            "id": 9,
+            "senderId": 1,
+            "recipientId": 5,
+            "content": "Of course, Sarah! I'm here to help. Please feel free to ask.",
+            "time": "2023-07-13T09:45:00"
+        },
+        {
+            "id": 10,
+            "senderId": 6,
+            "recipientId": 1,
+            "content": "Hi Pam, I need to reschedule our session for next week.",
+            "time": "2023-07-14T11:20:00"
+        },
+        {
+            "id": 11,
+            "senderId": 1,
+            "recipientId": 6,
+            "content": "No problem, Michael. Let me know your preferred date and time.",
+            "time": "2023-07-14T12:00:00"
+        },
+        {
+            "id": 12,
+            "senderId": 7,
+            "recipientId": 1,
+            "content": "Hi Pam, I have some concerns regarding my medication.",
+            "time": "2023-07-15T13:05:00"
+        },
+        {
+            "id": 13,
+            "senderId": 1,
+            "recipientId": 7,
+            "content": "Sure, Jane. Let's discuss it during our next session.",
+            "time": "2023-07-15T13:45:00"
+        },
+        {
+            "id": 14,
+            "senderId": 8,
+            "recipientId": 1,
+            "content": "Hi Pam, just checking in. How are you doing?",
+            "time": "2023-07-16T08:40:00"
+        },
+        {
+            "id": 15,
+            "senderId": 1,
+            "recipientId": 8,
+            "content": "Thank you for asking, Alex. I'm doing well. Let me know if you need anything.",
+            "time": "2023-07-16T09:15:00"
+        }
+    ]
+}
