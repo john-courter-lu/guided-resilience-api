@@ -29,36 +29,6 @@
       "id": 6,
       "email": "michael.brown@example.com",
       "isStaff": false
-    },
-    {
-      "id": 7,
-      "email": "sarah.smith@example.com",
-      "isStaff": false
-    },
-    {
-      "id": 8,
-      "email": "mark.johnson@example.com",
-      "isStaff": false
-    },
-    {
-      "id": 9,
-      "email": "emily.adams@example.com",
-      "isStaff": false
-    },
-    {
-      "id": 10,
-      "email": "michael.lee@example.com",
-      "isStaff": false
-    },
-    {
-      "id": 11,
-      "email": "sophia.wang@example.com",
-      "isStaff": false
-    },
-    {
-      "id": 12,
-      "email": "jacob.martinez@example.com",
-      "isStaff": false
     }
   ],
   "patients": [
@@ -111,66 +81,6 @@
       "city": "Phoenix",
       "state": "Arizona",
       "userId": 6
-    },
-    {
-      "id": 6,
-      "name": "Sarah Smith",
-      "dateOfBirth": "1992-12-10",
-      "genderId": 3,
-      "address": "789 Elm Road",
-      "city": "Otherville",
-      "state": "TX",
-      "userId": 7
-    },
-    {
-      "id": 7,
-      "name": "Mark Johnson",
-      "dateOfBirth": "1988-03-27",
-      "genderId": 1,
-      "address": "321 Maple Lane",
-      "city": "Cityville",
-      "state": "IL",
-      "userId": 8
-    },
-    {
-      "id": 8,
-      "name": "Emily Adams",
-      "dateOfBirth": "1996-08-02",
-      "genderId": 2,
-      "address": "987 Pine Street",
-      "city": "Townsville",
-      "state": "FL",
-      "userId": 9
-    },
-    {
-      "id": 9,
-      "name": "Michael Lee",
-      "dateOfBirth": "1983-11-18",
-      "genderId": 3,
-      "address": "555 Cedar Avenue",
-      "city": "Villageland",
-      "state": "WA",
-      "userId": 10
-    },
-    {
-      "id": 10,
-      "name": "Sophia Wang",
-      "dateOfBirth": "1991-06-25",
-      "genderId": 2,
-      "address": "222 Birch Road",
-      "city": "Hamletville",
-      "state": "NC",
-      "userId": 11
-    },
-    {
-      "id": 11,
-      "name": "Jacob Martinez",
-      "dateOfBirth": "1989-09-08",
-      "genderId": 1,
-      "address": "777 Pine Avenue",
-      "city": "Cityburg",
-      "state": "TX",
-      "userId": 12
     }
   ],
   "therapists": [
@@ -332,6 +242,15 @@
       "conditionId": 4,
       "approachId": 4,
       "startDate": "2023-04-05",
+      "endDate": "2099-12-31",
+      "isCompleted": false
+    },
+    {
+      "id": 5,
+      "patientId": 5,
+      "conditionId": 5,
+      "approachId": 5,
+      "startDate": "2023-05-12",
       "endDate": "2099-12-31",
       "isCompleted": false
     },
