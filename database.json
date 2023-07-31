@@ -161,16 +161,6 @@
       "city": "Hamletville",
       "state": "NC",
       "userId": 11
-    },
-    {
-      "id": 11,
-      "name": "Jacob Martinez",
-      "dateOfBirth": "1989-09-08",
-      "genderId": 1,
-      "address": "777 Pine Avenue",
-      "city": "Cityburg",
-      "state": "TX",
-      "userId": 12
     }
   ],
   "therapists": [
@@ -500,28 +490,28 @@
     {
       "senderId": 1,
       "recipientId": 3,
-      "content": "Hi Jane, Please fill in this form before our next session. https://docs.google.com/forms/d/e/1FAIpQLSfoGM0CUq9f7X1gtVHYyTCBhKWd69kMirWtShuQRbGk8NezVg/viewform",
+      "content": "Hi Jane, Please fill in the form I sent you before our next session.",
       "time": "2023-07-26T00:43:26.230Z",
       "id": 20
     },
     {
       "senderId": 1,
       "recipientId": 3,
-      "content": "Hi Jane, Please fill in this form before our next session. https://docs.google.com/forms/d/e/1FAIpQLSfoGM0CUq9f7X1gtVHYyTCBhKWd69kMirWtShuQRbGk8NezVg/viewform",
+      "content": "Hi Jane, Please fill in the form I sent you before our next session. ",
       "time": "2023-07-26T00:54:25.142Z",
       "id": 21
     },
     {
       "senderId": 1,
       "recipientId": 4,
-      "content": "Hi Alex, Please fill in this form before our next session.",
+      "content": "Hi Alex, Please fill in the form I sent you before our next session.",
       "time": "2023-07-26T01:08:25.401Z",
       "id": 22
     },
     {
       "senderId": 1,
       "recipientId": 4,
-      "content": "https://docs.google.com/forms/d/e/1FAIpQLSfoGM0CUq9f7X1gtVHYyTCBhKWd69kMirWtShuQRbGk8NezVg/viewform",
+      "content": "Hi Alex, Please fill in the form I sent you before our next session.",
       "time": "2023-07-26T14:58:49.810Z",
       "id": 23
     },
