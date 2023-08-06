@@ -321,16 +321,7 @@
       "patientId": 4,
       "conditionId": 4,
       "approachId": 4,
-      "startDate": "2023-01-05",
-      "endDate": "2023-08-02",
-      "isCompleted": true
-    },
-    {
-      "id": 5,
-      "patientId": 5,
-      "conditionId": 5,
-      "approachId": 5,
-      "startDate": "2022-01-05",
+      "startDate": "2023-04-05",
       "endDate": "2099-12-31",
       "isCompleted": false
     },
@@ -360,15 +351,6 @@
       "startDate": "2023-06-20",
       "endDate": "2099-12-31",
       "isCompleted": false
-    },
-    {
-      "patientId": 4,
-      "conditionId": "6",
-      "approachId": "2",
-      "startDate": "2023-08-02",
-      "endDate": "2099-12-31",
-      "isCompleted": false,
-      "id": 9
     }
   ],
   "messages": [
@@ -527,13 +509,6 @@
       "id": 22
     },
     {
-      "senderId": 1,
-      "recipientId": 4,
-      "content": "Hi Alex, Please fill in the form I sent you before our next session.",
-      "time": "2023-07-26T14:58:49.810Z",
-      "id": 23
-    },
-    {
       "senderId": 6,
       "recipientId": 1,
       "content": "Can we do 2pm this Monday?",
@@ -583,60 +558,11 @@
       "id": 30
     },
     {
-      "senderId": 8,
-      "recipientId": 1,
-      "content": "My takeaways:\n\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟 \n\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟 \n\n3. **Schema Therapy Society:** 🌟 🌟 \n\n4. **GoodTherapy.org:** 🌟 🌟 🌟 \n\n5. **PsychCentral:** 🌟 🌟 🌟 🌟 \n\n6. **TherapyChat Podcast:** 🌟 🌟 🌟 \n",
-      "time": "2023-08-01T19:41:40.663Z",
-      "id": 31
-    },
-    {
-      "senderId": 8,
-      "recipientId": 1,
-      "content": "My takeaways: \n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟 \n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟 \n3. **Schema Therapy Society:** 🌟 🌟 \n4. **GoodTherapy.org:** 🌟 🌟 🌟 \n5. **PsychCentral:** 🌟 🌟 🌟 🌟 \n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T20:17:30.881Z",
-      "id": 32
-    },
-    {
       "senderId": 1,
       "recipientId": 8,
-      "content": "My takeaways: 1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟 2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟 3. **Schema Therapy Society:** 🌟 🌟 4. **GoodTherapy.org:** 🌟 🌟 🌟 5. **PsychCentral:** 🌟 🌟 🌟 🌟 6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T20:32:43.155Z",
-      "id": 33
-    },
-    {
-      "senderId": 1,
-      "recipientId": 8,
-      "content": "My takeaways:\\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟\\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟\\n3. **Schema Therapy Society:** 🌟 🌟\\n4. **GoodTherapy.org:** 🌟 🌟 🌟\\n5. **PsychCentral:** 🌟 🌟 🌟 🌟\\n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T20:34:52.818Z",
-      "id": 34
-    },
-    {
-      "senderId": 1,
-      "recipientId": 8,
-      "content": "My takeaways:\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟\n3. **Schema Therapy Society:** 🌟 🌟\n4. **GoodTherapy.org:** 🌟 🌟 🌟\n5. **PsychCentral:** 🌟 🌟 🌟 🌟\n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
+      "content": "My recomendations:\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟\n3. **Schema Therapy Society:** 🌟 🌟\n4. **GoodTherapy.org:** 🌟 🌟 🌟\n5. **PsychCentral:** 🌟 🌟 🌟 🌟\n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
       "time": "2023-08-01T20:48:19.760Z",
       "id": 35
-    },
-    {
-      "senderId": 1,
-      "recipientId": 8,
-      "content": "My takeaways:\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟\n3. **Schema Therapy Society:** 🌟 🌟\n4. **GoodTherapy.org:** 🌟 🌟 🌟\n5. **PsychCentral:** 🌟 🌟 🌟 🌟\n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T21:03:52.962Z",
-      "id": 36
-    },
-    {
-      "senderId": 1,
-      "recipientId": 8,
-      "content": "My takeaways:\n1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟\n2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟\n3. **Schema Therapy Society:** 🌟 🌟\n4. **GoodTherapy.org:** 🌟 🌟 🌟\n5. **PsychCentral:** 🌟 🌟 🌟 🌟\n6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T21:05:33.789Z",
-      "id": 37
-    },
-    {
-      "senderId": 1,
-      "recipientId": 8,
-      "content": "My takeaways: 1. **Schema Therapy Institute:** 🌟 🌟 🌟 🌟 2. **International Society of Schema Therapy (ISST):** 🌟 🌟 🌟 3. **Schema Therapy Society:** 🌟 🌟 4. **GoodTherapy.org:** 🌟 🌟 🌟 5. **PsychCentral:** 🌟 🌟 🌟 🌟 6. **TherapyChat Podcast:** 🌟 🌟 🌟",
-      "time": "2023-08-01T21:06:37.672Z",
-      "id": 38
     },
     {
       "senderId": 8,
@@ -665,6 +591,41 @@
       "content": "Hi Emily. Here is the website I mentioned last session: www. brainhealth.com",
       "time": "2023-08-02T14:11:07.594Z",
       "id": 42
+    },
+    {
+      "senderId": 2,
+      "recipientId": 1,
+      "content": "Hi Pam, ...",
+      "time": "2023-08-03T14:37:25.922Z",
+      "id": 43
+    },
+    {
+      "senderId": 1,
+      "recipientId": 2,
+      "content": "Hi ",
+      "time": "2023-08-03T14:38:36.644Z",
+      "id": 44
+    },
+    {
+      "senderId": 2,
+      "recipientId": 1,
+      "content": "I don't know what to say",
+      "time": "2023-08-04T19:38:25.421Z",
+      "id": 47
+    },
+    {
+      "senderId": 1,
+      "recipientId": 2,
+      "content": "....",
+      "time": "2023-08-04T19:39:17.772Z",
+      "id": 48
+    },
+    {
+      "senderId": 1,
+      "recipientId": 11,
+      "content": "I am testing new buttons",
+      "time": "2023-08-05T05:24:31.383Z",
+      "id": 49
     }
   ]
 }
