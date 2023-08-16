@@ -7,7 +7,7 @@
     },
     {
       "id": 2,
-      "email": "john.doe@example.com",
+      "email": "john@example.com",
       "isStaff": false
     },
     {
@@ -64,7 +64,7 @@
   "patients": [
     {
       "id": 1,
-      "name": "John Doe",
+      "name": "John Smith",
       "dateOfBirth": "1985-03-15",
       "genderId": 1,
       "address": "123 Main St",
@@ -74,7 +74,7 @@
     },
     {
       "id": 2,
-      "name": "Jane Smith",
+      "name": "Jasmine",
       "dateOfBirth": "1990-11-02",
       "genderId": 2,
       "address": "456 Oak Ave",
@@ -84,7 +84,7 @@
     },
     {
       "id": 3,
-      "name": "Alex Johnson",
+      "name": "Flynn Rider",
       "dateOfBirth": "1978-07-21",
       "genderId": 1,
       "address": "789 Pine Rd",
@@ -94,7 +94,7 @@
     },
     {
       "id": 4,
-      "name": "Sarah Jones",
+      "name": "Belle",
       "dateOfBirth": "1989-09-09",
       "genderId": 3,
       "address": "1010 Elm St",
@@ -104,7 +104,7 @@
     },
     {
       "id": 5,
-      "name": "Michael Brown",
+      "name": "Cinderella",
       "dateOfBirth": "1995-12-30",
       "genderId": 2,
       "address": "222 Maple Ave",
@@ -114,7 +114,7 @@
     },
     {
       "id": 6,
-      "name": "Sarah Smith",
+      "name": "Pocahontas",
       "dateOfBirth": "1992-12-10",
       "genderId": 3,
       "address": "789 Elm Road",
@@ -124,7 +124,7 @@
     },
     {
       "id": 7,
-      "name": "Mark Johnson",
+      "name": "Li Shang",
       "dateOfBirth": "1988-03-27",
       "genderId": 1,
       "address": "321 Maple Lane",
@@ -134,7 +134,7 @@
     },
     {
       "id": 8,
-      "name": "Emily Adams",
+      "name": "Cinderella",
       "dateOfBirth": "1996-08-02",
       "genderId": 2,
       "address": "987 Pine Street",
@@ -144,7 +144,7 @@
     },
     {
       "id": 9,
-      "name": "Michael Lee",
+      "name": "Aurora",
       "dateOfBirth": "1983-11-18",
       "genderId": 3,
       "address": "555 Cedar Avenue",
@@ -154,7 +154,7 @@
     },
     {
       "id": 10,
-      "name": "Sophia Wang",
+      "name": "Mulan",
       "dateOfBirth": "1991-06-25",
       "genderId": 2,
       "address": "222 Birch Road",
@@ -322,8 +322,8 @@
       "conditionId": 4,
       "approachId": 4,
       "startDate": "2023-04-05",
-      "endDate": "2099-12-31",
-      "isCompleted": false
+      "endDate": "2023-08-15",
+      "isCompleted": true
     },
     {
       "id": 6,
@@ -351,6 +351,15 @@
       "startDate": "2023-06-20",
       "endDate": "2099-12-31",
       "isCompleted": false
+    },
+    {
+      "patientId": 4,
+      "conditionId": "2",
+      "approachId": "2",
+      "startDate": "2023-08-15",
+      "endDate": "2099-12-31",
+      "isCompleted": false,
+      "id": 9
     }
   ],
   "messages": [
@@ -581,44 +590,37 @@
     {
       "senderId": 1,
       "recipientId": 9,
-      "content": "Hi Emily. Here is the website I mentioned last session: www. brainhealth.com",
+      "content": "Hi Cinderella. Here is the website I mentioned last session: www. brainhealth.com",
       "time": "2023-08-02T14:11:07.594Z",
       "id": 42
     },
     {
       "senderId": 2,
       "recipientId": 1,
-      "content": "Hi Pam, ...",
-      "time": "2023-08-03T14:37:25.922Z",
-      "id": 43
+      "content": "Hi Pam, I feel destroyed! \nI got fired today! Unbelievable! \nI hate them so much ! This is so not fair! \nI told my mom, her response was : well, don't be late, I told so! \nshe didn't even be empathetic!!! \nI feel like I have no one to turn to. \nI feel so angry, but also so ashamed and helpless😣\n",
+      "time": "2023-08-13T16:04:26.974Z",
+      "id": 50
     },
     {
       "senderId": 1,
       "recipientId": 2,
-      "content": "Hi ",
-      "time": "2023-08-03T14:38:36.644Z",
-      "id": 44
+      "content": "It sounds like you're experiencing a lot right now, and it's unfortunate that your mother's response didn't provide the support you were hoping for. While I can't change the past, I'm here to listen and offer you a safe space to express yourself.",
+      "time": "2023-08-14T18:20:33.408Z",
+      "id": 51
     },
     {
       "senderId": 2,
       "recipientId": 1,
-      "content": "I don't know what to say",
-      "time": "2023-08-04T19:38:25.421Z",
-      "id": 47
+      "content": "\nThank you so much, Pam\n\nI cried a little bit in my car this morning, because I don't want my mom to know. So much sadness. It's drowning. I am trying my best, but I don't think I can do this. ",
+      "time": "2023-08-15T15:57:26.272Z",
+      "id": 52
     },
     {
       "senderId": 1,
       "recipientId": 2,
-      "content": "....",
-      "time": "2023-08-04T19:39:17.772Z",
-      "id": 48
-    },
-    {
-      "senderId": 1,
-      "recipientId": 11,
-      "content": "I am testing new buttons",
-      "time": "2023-08-05T05:24:31.383Z",
-      "id": 49
+      "content": "Let's start by acknowledging your feelings. It's completely valid to be upset about the unfairness of the situation and to feel angry. Losing a job can be a big blow to one's self-esteem and confidence, which might also be contributing to your feelings of shame and helplessness.\n\nIt's important to remember that you're not alone in this. While it might feel like you have no one to turn to right now, reaching out for support is a positive step. Talking about your feelings and experiences can be very therapeutic. If you're open to it, we can work together to explore your emotions, coping strategies, and ways to move forward.\n\nTake a deep breath and know that we're here to work through this together. You're stronger than you realize, and with time and support, you can navigate through these challenging feelings. Let's start by unpacking your emotions and finding some ways to help you cope.",
+      "time": "2023-08-15T15:58:26.240Z",
+      "id": 53
     }
   ]
 }
